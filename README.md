@@ -1,14 +1,15 @@
 # FasterDD2
 Simple Darkest Dungeon 2 example speed mod using MelonLoader.
-Doesn't affect sound.
+Doesn't affect narrator?
+For personal use.
 
-Adds 2 buttons top left which can speed up to 3x.
+1-3x 
 
 ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/ff035176-f4d4-40f9-9d84-fc2d197ae37d)
 
 **REQ**
 
-MelonLoader 0.5.7 https://melonwiki.xyz/#/README
+MelonLoader Mod Loader 0.5.7 https://melonwiki.xyz/#/README
 
 **INSTALL**
 1) Download MelonLoader Installer from https://melonwiki.xyz/#/README (install requirements)
