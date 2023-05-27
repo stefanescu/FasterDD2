@@ -5,12 +5,12 @@ Simple Darkest Dungeon 2 speed mod
 
 
 **How to INSTALL and USE:**
-1) Download MelonLoader Installer from https://melonwiki.xyz/#/README
+1) Download MelonLoader Installer from https://melonwiki.xyz/#/README (follow instructions, might have to install 1 or 2 things)
 2) Find "Darkest Dungeon II.exe" from your game dir
 3) _**Untick Auto checkbox and select version 0.5.7, NOT VERSION 6+**_
 4) Leave Game Arch to **Auto**
 5) Install MelonLoader
-6) Download FasterDD2.dll and place it in the Mods directory created by MelonLoader, in the  game location
+6) Download [FasterDD2.dll](https://github.com/stefanescu/FasterDD2/blob/9a364af61ab8a19a1605e564a0a92619c008b6c6/Fasterdd2.dll) and place it in the Mods directory created by MelonLoader, in the  game location
 7) Your Launcher will **Always** use all the mods in the Mods folder.
 8) Use the top-left buttons to change speed
 
