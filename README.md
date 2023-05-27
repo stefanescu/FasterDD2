@@ -1,6 +1,8 @@
 # FasterDD2
 Simple Darkest Dungeon 2 speed mod
 
+Using this for myself, thought i'd share.
+Adds 2 buttons top left which can speed up or slow down [1x-3x]
 ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/ff035176-f4d4-40f9-9d84-fc2d197ae37d)
 
 
@@ -26,4 +28,4 @@ Simple Darkest Dungeon 2 speed mod
 4) Game is back to unmodded
 
 
-Future Game Updates **might** break functionality ( probably won't).
+Future Game Updates **might** break functionality (probably won't).
