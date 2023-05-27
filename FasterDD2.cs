@@ -1,34 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.InteropServices.ComTypes;
-using System.Text;
-using System.Threading.Tasks;
-using MelonLoader;
+﻿using MelonLoader;
 using UnityEngine;
 
 
-namespace Fasterdd2
+namespace Zoomies
 {
     public class FasterDD2 : MelonMod
     {
         public static FasterDD2 instance;
-        private static int currentSpeed;
-        private static float[] allSpeeds = new float[] { 1F, 1.5F, 2F, 2.5F, 3F };
-        private GUIStyle labelStyle;
+        private static int speedIndex;
+        private static float[] allSpeeds = new float[] { 1f, 1.5f, 2f, 2.5f, 3f };
 
+        private static Rect labelPos = new Rect ( 50, 30, 1000, 200 );
+        private static Rect speedDownPos = new Rect ( 15, 30, 20, 15 );
+        private static Rect speedUpPos = new Rect ( 80, 30, 20, 15 );
+        private GUIStyle labelStyle;
 
         public override void OnEarlyInitializeMelon()
         {
             instance = this;
-            currentSpeed = 0;
+            speedIndex = 0;
 
             labelStyle = new GUIStyle { fontSize = 12 };
             labelStyle.normal.textColor = Color.red;
 
-            Melon<FasterDD2>.Logger.Msg("SpeedMod");
-            MelonEvents.OnGUI.Subscribe(DrawSpeedText, 100);
+            Melon<FasterDD2>.Logger.Msg("FasterDD2");
+            MelonEvents.OnGUI.Subscribe(DrawUI, 100);
         }
 
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
@@ -36,46 +32,46 @@ namespace Fasterdd2
             ApplySpeed();
         }
 
-        public  void DrawSpeedText()
+        public void DrawUI()
         {
             //GUI.Label(new Rect(45, 28, 1000, 200), "<b><color=red><size=12> 3x </size></color></b>");
-            GUI.Label(new Rect(50, 30, 1000, 200), allSpeeds[currentSpeed].ToString() + "x", labelStyle);
+            GUI.Label(labelPos, allSpeeds[speedIndex].ToString() + "x", labelStyle);
 
-            if (GUI.Button(new Rect(15, 30, 20, 15), "-"))
+            if (GUI.Button(speedDownPos, "-"))
                 SpeedDown();
-            if (GUI.Button(new Rect(80, 30, 20, 15), "+"))
+            if (GUI.Button(speedUpPos, "+"))
                 SpeedUp();
 
         }
 
         public static void SpeedUp()
         {
-            if (currentSpeed == allSpeeds.Length - 1)
+            if (speedIndex == allSpeeds.Length - 1)
                 return;
             
-            currentSpeed++;
+            speedIndex++;
             ApplySpeed();
 
         }
         public static void SpeedDown()
         {
-            if (currentSpeed == 0)
+            if (speedIndex == 0)
                 return;
 
-            currentSpeed--;
+            speedIndex--;
             ApplySpeed();
             //currentSpeed = (currentSpeed - 1) % allSpeeds.Count;
         }
 
         public static void ApplySpeed()
         {
-            Melon<FasterDD2>.Logger.Msg("Speed " + allSpeeds[currentSpeed] +"x");
-            Time.timeScale = allSpeeds[currentSpeed];
+            Melon<FasterDD2>.Logger.Msg("Speed " + allSpeeds[speedIndex] +"x");
+            Time.timeScale = allSpeeds[speedIndex];
         }
 
         public override void OnDeinitializeMelon()
         {
-            MelonEvents.OnGUI.Unsubscribe(DrawSpeedText);
+            MelonEvents.OnGUI.Unsubscribe(DrawUI);
         }
     }
 }
