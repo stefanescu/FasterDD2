@@ -32,6 +32,6 @@ Narator dialogue unaffected.
 
 
 **Known Issues**
-If using Steer-with-mouse option, your cart will stop if you press Speed buttons during travel. Click again to start travel. Aware and **won't fix**. 
+1) If using Steer-with-mouse option, your cart will stop if you press Speed buttons during travel. Click again to start travel. Aware and **won't fix**. 
 
 Future Game Updates **might** break functionality (probably won't).
