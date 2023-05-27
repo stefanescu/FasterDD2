@@ -1,5 +1,5 @@
 # FasterDD2
-Simple Darkest Dungeon 2 speed mod using MelonLoader
+Simple Darkest Dungeon 2 speed mod using MelonLoader.
 Doesn't affect sound.
 
 Using this for myself, thought i'd share.
