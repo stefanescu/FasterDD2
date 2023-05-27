@@ -31,4 +31,7 @@ Narator dialogue unaffected.
 4) Game is back to unmodded
 
 
+**Known Issues**
+If using Steer-with-mouse option, your cart will stop if you press Speed buttons during travel. Click again to start travel. Aware and **won't fix**. 
+
 Future Game Updates **might** break functionality (probably won't).
