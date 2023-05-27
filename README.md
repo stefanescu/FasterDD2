@@ -1,5 +1,5 @@
 # FasterDD2
-Simple Darkest Dungeon 2 speed mod
+Simple Darkest Dungeon 2 speed mod using MelonLoader
 
 Using this for myself, thought i'd share.
 Adds 2 buttons top left which can speed up or slow down 1x-3x.
