@@ -1,10 +1,8 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using System.Runtime.InteropServices.ComTypes;
 
 using MelonLoader;
-using Fasterdd2; // The namespace of your mod class
+using Zoomies; // The namespace of your mod class
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
@@ -18,7 +16,7 @@ using Fasterdd2; // The namespace of your mod class
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-[assembly: MelonInfo(typeof(FasterDD2), "Faster DD2", "0.1.1", "bloodstone")]
+[assembly: MelonInfo(typeof(FasterDD2), "Faster DD2", "0.1.3", "bloodstone")]
 [assembly: MelonGame("RedHook", "Darkest Dungeon II")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
