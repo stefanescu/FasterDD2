@@ -2,7 +2,8 @@
 Simple Darkest Dungeon 2 speed mod
 
 Using this for myself, thought i'd share.
-Adds 2 buttons top left which can speed up or slow down 1x-3x
+Adds 2 buttons top left which can speed up or slow down 1x-3x.
+Narator dialogue unaffected.
 
 
 ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/ff035176-f4d4-40f9-9d84-fc2d197ae37d)
@@ -14,9 +15,9 @@ Adds 2 buttons top left which can speed up or slow down 1x-3x
 3) _**Untick Auto checkbox and select version 0.5.7, NOT VERSION 6+**_
 4) Leave Game Arch to **Auto**
 5) Install MelonLoader
-6) Download [FasterDD2.dll](https://github.com/stefanescu/FasterDD2/blob/9a364af61ab8a19a1605e564a0a92619c008b6c6/Fasterdd2.dll) and place it in the Mods directory created by MelonLoader, in the  game location
+6) Download [FasterDD2.dll](https://github.com/stefanescu/FasterDD2/blob/9a364af61ab8a19a1605e564a0a92619c008b6c6/Fasterdd2.dll) and place it in the DD2/Mods directory just created 
 7) Your Launcher will **Always** use all the mods in the Mods folder.
-8) Use the top-left buttons to change speed
+8) INGAME: Use  top-left buttons to change speed
 
 
 
