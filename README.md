@@ -10,7 +10,7 @@ Adds 2 buttons top left which can speed up to 3x.
 
 MelonLoader 0.5.7 https://melonwiki.xyz/#/README
 
-**How to INSTALL and USE:**
+**INSTALL**
 1) Download MelonLoader Installer from https://melonwiki.xyz/#/README (install requirements)
 2) Find "Darkest Dungeon II.exe"
 3) _**Untick Auto checkbox and select MelonLoader version 0.5.7, NOT 6+**_
@@ -29,6 +29,7 @@ MelonLoader 0.5.7 https://melonwiki.xyz/#/README
 2) Find "Darkest Dungeon II.exe" from your game dir
 3) Uninstall MelonLoader
 4) Game is back to unmodded
+
 
 
 **BUILD**
