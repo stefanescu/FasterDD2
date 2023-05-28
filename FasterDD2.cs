@@ -1,4 +1,4 @@
-﻿using MelonLoader;
+using MelonLoader;
 using UnityEngine;
 
 
@@ -34,7 +34,6 @@ namespace Zoomies
 
         public void DrawUI()
         {
-            //GUI.Label(new Rect(45, 28, 1000, 200), "<b><color=red><size=12> 3x </size></color></b>");
             GUI.Label(labelPos, allSpeeds[speedIndex].ToString() + "x", labelStyle);
 
             if (GUI.Button(speedDownPos, "-"))
