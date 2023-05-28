@@ -25,12 +25,12 @@ MelonLoader Mod Loader 0.5.7 https://melonwiki.xyz/#/README
 
 **Want to go back to playing without mods?**
 
-**UNINSTALL MelonLoader:**
+**UNINSTALL MelonLoader:** (OR move the /Mods dir somewhere else)
 1) Launch MelonLoader Installer
 2) Find "Darkest Dungeon II.exe" from your game dir
 3) Uninstall MelonLoader
 4) Game is back to unmodded
-OR move the /Mods dir somewhere else
+
 
 
 **BUILD**
