@@ -1,37 +1,27 @@
 # FasterDD2
-Simple Darkest Dungeon 2 example speed mod using MelonLoader.
-Doesn't affect narrator?
+Simple Darkest Dungeon 2 example speed mod (1-3x) using MelonLoader.
+Doesn't affect narrator/music.
 For personal use.
-
-1-3x 
 
 ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/ff035176-f4d4-40f9-9d84-fc2d197ae37d)
 
 **REQ**
 
-MelonLoader Mod Loader 0.5.7 https://melonwiki.xyz/#/README
+MelonLoader Mod Loader `0.5.7` https://melonwiki.xyz/#/README
 
 **INSTALL**
 1) Download MelonLoader Installer from https://melonwiki.xyz/#/README (install requirements)
-2) Find "Darkest Dungeon II.exe"
-3) _**Untick Auto checkbox and select MelonLoader version 0.5.7, NOT 6+**_
+2) Locate "Darkest Dungeon II.exe" in your GameDir
+3) _**Untick Auto checkbox and select MelonLoader version `0.5.7`, NOT `6+`**_
 4) Leave Game Arch to **Auto**
-5) Install MelonLoader
-6) Download [FasterDD2.dll](https://github.com/stefanescu/FasterDD2/blob/9a364af61ab8a19a1605e564a0a92619c008b6c6/Fasterdd2.dll) from this repo and place it in the /Mods folder  MelonLoader created 
-7) Your Launcher will **Always** use all the mods in the Mods folder.
+5) Install MelonLoader, which creates `/Mods` next to .exe
+6) Download [FasterDD2.dll](https://github.com/stefanescu/FasterDD2/blob/9a364af61ab8a19a1605e564a0a92619c008b6c6/Fasterdd2.dll) from this repo and place it in `/Mods`
+7) Your .exe will **Always** use everything in the Mods folder, unless you start it with `--no-mods`
 
-
-
-
-**Want to go back to playing without mods?**
-
-**UNINSTALL MelonLoader:** (OR move the /Mods dir somewhere else)
-1) Launch MelonLoader Installer
-2) Find "Darkest Dungeon II.exe" from your game dir
-3) Uninstall MelonLoader
-4) Game is back to unmodded
-
-
+**Wanna play without mods?**
+`--no-mods` Launch Argument OR
+move the `/Mods` dir somewhere else OR
+Uninstall MelonLoader
 
 **BUILD**
 
