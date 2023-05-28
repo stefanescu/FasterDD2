@@ -37,7 +37,7 @@ DD2 uses Mono in Unity 2020.3.7
 
  3)
  ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/ae1fd8b3-c19c-42e5-825e-6504ff364d79)
- Need these references. If missing,
+ Need these 4 references. If missing,
  Right click References > Add
   
 From ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/0fe3efeb-3c30-49c9-98ee-e5dd6f530097)
