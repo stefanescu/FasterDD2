@@ -43,7 +43,8 @@ MelonLoader Requirements (for Mono runtime) https://melonwiki.xyz/#/modders/quic
  2) In Project Properties
  ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/08d12445-2da6-4b75-b50b-922fd004db10)
 
- 3) ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/ae1fd8b3-c19c-42e5-825e-6504ff364d79)
+ 3)
+ ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/ae1fd8b3-c19c-42e5-825e-6504ff364d79)
  Need these references. If missing,
  Right click References > Add
   
