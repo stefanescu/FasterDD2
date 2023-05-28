@@ -27,6 +27,8 @@ Uninstall MelonLoader
 
 MelonLoader Requirements (for Mono runtime) https://melonwiki.xyz/#/modders/quickstart
 
+DD2 uses Mono in Unity 2020.3.7
+
 ![image](https://github.com/stefanescu/FasterDD2/assets/5994641/e97c7d35-532a-4652-83b2-5bd6ae1cd218)
 
  1) Visual Studio (2022)
